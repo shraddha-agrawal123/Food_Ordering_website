@@ -1,7 +1,7 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: url('\header_img.png') no-repeat;
+    background: url('/assets/header_img.png') no-repeat center center/cover;
     background-size: contain ;
     position: relative;
 
@@ -21,21 +21,21 @@
 
 .header-content h2{
     font-weight: 500;
-    color: white;
+    color: black;
     font-size: max(4.5vw,22px);
 }
 
 .header-content p{
-    color: white;
+    color: black;
     font-size: 1vw;
 }
 
 .header-content button{
     border: none;
-    color: #747474;
+    color: #9F8383;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background-color: white;
+    background-color: #FCE7C8;
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
