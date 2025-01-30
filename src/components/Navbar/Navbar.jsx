@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'; // Import PropTypes for props validation
 import { assets } from '../../assets/assets';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { StoreContext } from '../../context/StoreContext';
+import { StoreContext } from "../../context/storeContext";
+
 
 const Navbar = ({ setShowLogin }) => {
   const [menu, setMenu] = useState('home');
